@@ -1,287 +1,287 @@
 div(class="mobile_menu_area")
-    #offcanvasWithBothOptions.offcanvas.offcanvas-start(
+  #offcanvasWithBothOptions.offcanvas.offcanvas-start(
     tabindex="-1" 
     data-bs-scroll="true"
     )
     button.btn-close(
-        aria-label="Close" 
-        data-bs-dismiss="offcanvas" 
-        type="button"
-        )
-        i.fal.fa-times
+      aria-label="Close" 
+      data-bs-dismiss="offcanvas" 
+      type="button"
+      )
+      i.fal.fa-times
     .offcanvas-body
-        ul(class="mobile_currency")
+      ul(class="mobile_currency")
         li
-            select.language(class="select_js")
+          select.language(class="select_js")
             option English
             option Arabic
             option Hindi
             option Chinese
         li
-            select(class="select_js")
+          select(class="select_js")
             option $USD
             option €EUR
             option ¥JPY
             option £GBP
             option ₹INR
-        ul.d-flex.flex-wrap(class="mobile_menu_header")
+      ul.d-flex.flex-wrap(class="mobile_menu_header")
         li
-            a(href="compare.html")
+          a(href="compare.html")
             b
-                img.img-fluid(
+              img.img-fluid(
                 alt="Wishlist" 
-                src="assets/images/compare_black.svg"
+                src="/client/assets/images/compare_black.svg"
                 )
             span 2
         li
-            a(href="wishlist.html")
+          a(href="wishlist.html")
             b
-                img.img-fluid(
+              img.img-fluid(
                 alt="Wishlist" 
-                src="assets/images/love_black.svg"
+                src="/client/assets/images/love_black.svg"
                 )
             span 4
         li
-            a(href="cart.html")
+          a(href="cart.html")
             b
-                img.img-fluid(
+              img.img-fluid(
                 alt="cart" 
-                src="assets/images/cart_black.svg"
+                src="/client/assets/images/cart_black.svg"
                 )
             span 5
         li
-            a(href="dashboard.html")
+          a(href="dashboard.html")
             b
-                img.img-fluid(
+              img.img-fluid(
                 alt="cart" 
-                src="assets/images/user_icon_black.svg"
+                src="/client/assets/images/user_icon_black.svg"
                 )
-        form(class="mobile_menu_search")
+      form(class="mobile_menu_search")
         input(
-            placeholder="Search" 
-            type="text"
-            )
+          placeholder="Search" 
+          type="text"
+          )
         button(type="submit")
-            i.far.fa-search
-        div(class="mobile_menu_item_area")
+          i.far.fa-search
+      div(class="mobile_menu_item_area")
         ul#pills-tab.nav.nav-pills(role="tablist")
-            li.nav-item(role="presentation")
+          li.nav-item(role="presentation")
             button#pills-home-tab.nav-link.active(
-                aria-selected="true" 
-                aria-controls="pills-home" 
-                role="tab" 
-                type="button" 
-                data-bs-target="#pills-home" 
-                data-bs-toggle="pill"
-                ) Categories
-            li.nav-item(role="presentation")
+              aria-selected="true" 
+              aria-controls="pills-home" 
+              role="tab" 
+              type="button" 
+              data-bs-target="#pills-home" 
+              data-bs-toggle="pill"
+              ) Categories
+          li.nav-item(role="presentation")
             button#pills-profile-tab.nav-link(
-                aria-selected="false" 
-                aria-controls="pills-profile" 
-                role="tab" 
-                type="button" 
-                data-bs-target="#pills-profile" 
-                data-bs-toggle="pill"
-                ) menu
+              aria-selected="false" 
+              aria-controls="pills-profile" 
+              role="tab" 
+              type="button" 
+              data-bs-target="#pills-profile" 
+              data-bs-toggle="pill"
+              ) menu
         #pills-tabContent.tab-content
-            #pills-home.tab-pane.fade.show.active(
+          #pills-home.tab-pane.fade.show.active(
             tabindex="0" 
             aria-labelledby="pills-home-tab" 
             role="tabpanel"
             )
             ul(class="main_mobile_menu")
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") Men's Fashion
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="shop.html") jeans pant
-                    li
+                  li
                     a(href="shop.html") formal shirt
-                    li
+                  li
                     a(href="shop.html") 2 quater
-                    li
+                  li
                     a(href="shop.html") denim jacket
-                    li
+                  li
                     a(href="shop.html") t-shirt
-                    li
+                  li
                     a(href="shop.html") polo-shirt
-                    li
+                  li
                     a(href="shop.html") formal pant
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") women's Fashion
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="shop.html") sharee
-                    li
+                  li
                     a(href="shop.html") kurti
-                    li
+                  li
                     a(href="shop.html") plazoo
-                    li
+                  li
                     a(href="shop.html") lagins
-                    li
+                  li
                     a(href="shop.html") tops
-                    li
+                  li
                     a(href="shop.html") scart
-                    li
+                  li
                     a(href="shop.html") denim jeans
-                    li
+                  li
                     a(href="shop.html") Gown
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") kids fashion
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="shop.html") t-shirt
-                    li
+                  li
                     a(href="shop.html") partu dress
-                    li
+                  li
                     a(href="shop.html") sharee
-                    li
+                  li
                     a(href="shop.html") kurti
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") western wear
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="shop.html") western party dress
-                    li
+                  li
                     a(href="shop.html") kurti
-                    li
+                  li
                     a(href="shop.html") denim pant
-                    li
+                  li
                     a(href="shop.html") casual jacket
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") Denim collection
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="shop.html") shirt
-                    li
+                  li
                     a(href="shop.html") pant
-                    li
+                  li
                     a(href="shop.html") jacket
-                    li
+                  li
                     a(href="shop.html") blazer
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") sport wear
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="shop.html") shoes
-                    li
+                  li
                     a(href="shop.html") trouser
-                    li
+                  li
                     a(href="shop.html") meat
-                    li
+                  li
                     a(href="shop.html") Outdoors
-                    li
+                  li
                     a(href="shop.html") Sports Pant
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") beauty products
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="shop.html") Concealer Palette
-                    li
+                  li
                     a(href="shop.html") Highlighter Palette
-                    li
+                  li
                     a(href="shop.html") SkinPure Avocado Gel
-                    li
+                  li
                     a(href="shop.html") Blush Palette
-                    li
+                  li
                     a(href="shop.html") Face Wash
-                    li
+                  li
                     a(href="shop.html") Lip Balm
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") fashion jewellery
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="shop.html") Necklace
-                    li
+                  li
                     a(href="shop.html") ear ring
-                    li
+                  li
                     a(href="shop.html") fingure ring
-                    li
+                  li
                     a(href="shop.html") bratchlet
-            #pills-profile.tab-pane.fade(
+          #pills-profile.tab-pane.fade(
             tabindex="0" 
             aria-labelledby="pills-profile-tab" 
             role="tabpanel"
             )
             ul(class="main_mobile_menu")
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") home
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="index.html") clothing fashion 01
-                    li
+                  li
                     a(href="home_fashion_2.html") clothing fashion 02
-                    li
+                  li
                     a(href="home_grocery.html") Grocery Store
-                    li
+                  li
                     a(href="home_beauty.html") Beauty & Cosmetics
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") shop
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="#") store
-                    li
+                  li
                     a(href="#") store details
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") store
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="vendor.html") store
-                    li
+                  li
                     a(href="vendor_details.html") store details
-                    li
+                  li
                     a(href="vendor_registration.html") become a vendor
-                li
+              li
                 a(href="flash_deals.html") flash deals
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") pages
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="about_us.html") about us
-                    li
+                  li
                     a(href="category.html") Category
-                    li
+                  li
                     a(href="brand.html") Brand
-                    li
+                  li
                     a(href="cart.html") cart view
-                    li
+                  li
                     a(href="wishlist.html") wishlist
-                    li
+                  li
                     a(href="compare.html") compare
-                    li
+                  li
                     a(href="checkout.html") checkout
-                    li
+                  li
                     a(href="payment_success.html") payment success
-                    li
+                  li
                     a(href="track_order.html") track order
-                    li
+                  li
                     a(href="error.html") error/404
-                    li
+                  li
                     a(href="faq.html") FAQ's
-                    li
+                  li
                     a(href="privacy_policy.html") privacy Policy
-                    li
+                  li
                     a(href="terms_condition.html") terms and condition
-                    li
+                  li
                     a(href="return_policy.html") return policy
-                    li
+                  li
                     a(href="sign_in.html") sign in
-                    li
+                  li
                     a(href="sign_up.html") sign up
-                    li
+                  li
                     a(href="forgot_password.html") forgot password
-                    li
+                  li
                     a(href="dashboard.html") Dashboard
-                li(class="mobile_dropdown")
+              li(class="mobile_dropdown")
                 a(href="#") blog
                 ul(class="inner_menu")
-                    li
+                  li
                     a(href="blog_classic.html") blog classic
-                    li
+                  li
                     a(href="blog_left_sidebar.html") blog right sidebar
-                    li
+                  li
                     a(href="blog_left_sidebar.html") blog left sidebar
-                    li
+                  li
                     a(href="blog_details.html") blog details
-                li
+              li
                 a(href="contact_us.html") contact

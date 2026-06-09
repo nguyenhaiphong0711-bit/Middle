@@ -8,7 +8,7 @@ app.get('/', (req: Request, res: Response) => {
   res.render("client/pages/home");
 })
 // Thiet lap file tinh cho project
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../public')));
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
